@@ -98,7 +98,7 @@ def quiz():
             color:#191970; 
             }}
             </style>
-            <div class="a"><h4>Our date idea: {a1}. Your favourite memory of us is {a2} (Awwwww). According to you, we can be described by {a3} yayyyyy :P. Durvi, you would like to travel to: {a4} 💫</h4></div>
+            <div class="a"><h4>Our date idea: {a1}. Your favourite memory of us is {a2} (Awwwww). According to you, we can be described by {a4} yayyyyy :P. Durvi, your favourite thing about me is: {a4} 💫</h4></div>
             """, unsafe_allow_html=True)
         
         else:
