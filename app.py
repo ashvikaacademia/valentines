@@ -3,11 +3,11 @@ import datetime
 from datetime import date
 import time 
 
-NAME="name"
-MESSAGE="Hi Poorvi, do you remember the 27th? You know exactly which one I mean, the most special day of my life, the day that means more to me than anything else. That date will always stay close to my heart because it gave me moments I will cherish forever. And do you remember Valentine’s week in 2024? We were standing at the auto stand and you had your favorite flower in your hands. I didn’t give it to you right away and you were a little upset with me, but when I finally did, you took it so gently and placed it inside your diary like it was something precious. That moment still makes me smile because it was not just about a flower, it was about us. And now here we are, another Valentine’s Day, your Valentine’s Day. This past year has been so beautiful. Yes, there were some hurdles along the way and we both know that, but what matters most is that we faced them together. Every challenge only made us stronger and brought us closer. Poorvi , I just want you to know how deeply I love you. You mean the world to me. You are my peace, my happiness, my strength. You are my home and my safe place. In you I find everything I need. You truly are my everything. On this Valentine’s Day I just want to promise you that my love for you will always remain pure and true. I want to stand beside you in every season of life, in laughter and in tears, in success and in struggle. I want to celebrate many more 27ths with you, create countless new memories and keep choosing you every single day. Happy Valentine’s Day my love. Forever yours."
-year=2023
-month=5
-day=27
+NAME="Durvi"
+MESSAGE="we met in 11th class and I started really loving you because you cared about me and you really understood my inner feelings whenever I needed her she was always with me. I still remember jb hum coaching se ghr aarhe the ek hi umbrella k neeche park m aate hi we both started playing" 
+year=2024
+month=4
+day=6
 
 if "page" not in st.session_state:
     st.session_state.page=1
@@ -70,7 +70,7 @@ def story_page():
     col1, col2, col3 = st.columns([1, 4, 1]) 
     with col2:
         st.write("he")
-        #st.image("sakshandvivi.jpeg",width=500)
+        #st.image(".jpeg",width=500)
 
     if st.button("Next 🎀"):
         st.session_state.page=3
@@ -84,9 +84,9 @@ def quiz():
     a1=st.radio(q1,o1)
     q2="🩰 What's your favourite memory of us?"
     a2=st.text_input(q2)
-    q3="🎲 Describe Saksham in 40-50 words"
+    q3="🎲 What's your favourite thing about me?"
     a3=st.text_input(q3)
-    q4="🫶🏻 Where would you like to travel with me?"
+    q4="🫶🏻 Describe our relationship in one word :)"
     a4=st.text_input(q4)
 
     
@@ -99,7 +99,7 @@ def quiz():
             color:#191970; 
             }}
             </style>
-            <div class="a"><h4>Our date idea: {a1}. Your favourite memory of us is {a2} (Awwwww). According to you, we can be described by {a3} yayyyyy :P. Vivi, you would like to travel to: {a4} 💫</h4></div>
+            <div class="a"><h4>Our date idea: {a1}. Your favourite memory of us is {a2} (Awwwww). According to you, we can be described by {a3} yayyyyy :P. Durvi, you would like to travel to: {a4} 💫</h4></div>
             """, unsafe_allow_html=True)
         
         else:
